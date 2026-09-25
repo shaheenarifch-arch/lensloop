@@ -1,20 +1,92 @@
-<url>
-   <loc>https://curated4her.com/blog/</loc>
-   <lastmod>2026-09-25</lastmod>
-   <changefreq>daily</changefreq>
-   <priority>0.9</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage - 2000 SEO Sales Page -->
+  <url>
+    <loc>https://lensloop.site/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-   <loc>https://curated4her.com/blog/best-human-hair-wigs-for-thinning-hair-women.html</loc>
-   <lastmod>2026-09-25</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-</url>
+  <!-- LensLoop Products - Real products on your site -->
+  <url>
+    <loc>https://lensloop.site/frames/gage</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/frames/abel</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/frames/smart-glass-05</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/bundle</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-   <loc>https://curated4her.com/blog/how-to-choose-sunglasses-for-oval-face-shape.html</loc>
-   <lastmod>2026-09-25</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8</priority>
-</url>
+  <!-- Shop / Sales Page - Combined LensLoop + DIMA -->
+  <url>
+    <loc>https://lensloop.site/shop/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Index - NEW -->
+  <url>
+    <loc>https://lensloop.site/blog/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- DIMA Blog Pillar - 2000 words SEO with your affiliate -->
+  <url>
+    <loc>https://lensloop.site/blog/dima-eyewear-review-2026/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/blog/best-affordable-prescription-glasses-2026/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/blog/abel-gradient-review/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/blog/smart-glass-05-review/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://lensloop.site/about/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lensloop.site/contact/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
