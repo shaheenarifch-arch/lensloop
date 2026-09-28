@@ -598,3 +598,11 @@ footer h4{color:var(--brass)}
 footer .brand{color:#F5F1E8}
 footer .brand .dot{border-color:#F5F1E8}
 footer .brand .dot::after{background:var(--brass)}
+
+/* Footer text -> gold */
+:root{ --gold:#E6C67C; --gold-bright:#F4DFA6; }
+footer{color:var(--gold)}
+footer p,footer span,footer .brand{color:var(--gold)}
+footer a{color:var(--gold);opacity:1}
+footer a:hover{color:var(--gold-bright)}
+footer h4{color:var(--gold-bright)}
