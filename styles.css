@@ -606,3 +606,8 @@ footer p,footer span,footer .brand{color:var(--gold)}
 footer a{color:var(--gold);opacity:1}
 footer a:hover{color:var(--gold-bright)}
 footer h4{color:var(--gold-bright)}
+
+/* Brand logo mark (glasses) in header + footer */
+.brand{gap:12px}
+.brand .dot{width:40px;height:25px;border:0!important;border-radius:0;background:url('/assets/logo-mark.svg') left center/contain no-repeat;position:static}
+.brand .dot::after{content:none!important;display:none!important}
