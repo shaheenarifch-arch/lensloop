@@ -475,3 +475,27 @@ footer {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
 }
+
+/* ---- Home product carousels (LensLoop) ---- */
+.ll-collection{padding:44px 0;border-top:1px solid var(--paper-line)}
+.ll-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:20px}
+.ll-head h2{margin:.15em 0 .1em;font-family:var(--font-display)}
+.ll-head p{color:var(--ink-soft);max-width:60ch;margin:0}
+.ll-head .more{white-space:nowrap;font-weight:600;color:var(--amber)}
+.ll-carousel{position:relative}
+.ll-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 2px 14px;scrollbar-width:none}
+.ll-track::-webkit-scrollbar{display:none}
+.ll-card{flex:0 0 clamp(190px,44vw,232px);scroll-snap-align:start;background:var(--panel);border:1px solid var(--paper-line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.ll-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(22,35,46,.1)}
+.ll-card-img{display:block;background:#fff;aspect-ratio:1/1;overflow:hidden}
+.ll-card-img img{width:100%;height:100%;object-fit:contain;padding:10px}
+.ll-card-body{padding:12px 14px 14px;display:flex;flex-direction:column;flex:1}
+.ll-card-body h3{font-size:.98rem;line-height:1.3;margin:0 0 10px;font-family:var(--font-body);font-weight:600}
+.ll-card-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.ll-price{font-weight:700;color:var(--ink)}
+.ll-buy{font-size:.82rem;font-weight:600;color:var(--amber);white-space:nowrap}
+.ll-arrow{position:absolute;top:36%;z-index:3;width:40px;height:40px;border:1px solid var(--paper-line);border-radius:50%;background:var(--panel);color:var(--ink);font-size:1.4rem;line-height:1;cursor:pointer;box-shadow:0 4px 14px rgba(22,35,46,.12)}
+.ll-arrow:hover{background:var(--amber);color:#fff;border-color:var(--amber)}
+.ll-prev{left:-8px}.ll-next{right:-8px}
+.ll-disclose{font-size:.78rem;color:var(--ink-soft);margin:8px 0 0}
+@media(max-width:700px){.ll-arrow{display:none}.ll-head{flex-direction:column;align-items:flex-start;gap:6px}}

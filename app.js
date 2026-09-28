@@ -98,3 +98,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+// Home product carousels
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.ll-carousel').forEach((box) => {
+    const track = box.querySelector('.ll-track');
+    if (!track) return;
+    const step = () => Math.max(track.clientWidth * 0.85, 210);
+    const prev = box.querySelector('.ll-prev');
+    const next = box.querySelector('.ll-next');
+    if (prev) prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+    if (next) next.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+    track.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') track.scrollBy({ left: -step(), behavior: 'smooth' });
+      if (e.key === 'ArrowRight') track.scrollBy({ left: step(), behavior: 'smooth' });
+    });
+  });
+});
