@@ -610,8 +610,9 @@ footer a{color:var(--gold);opacity:1}
 footer a:hover{color:var(--gold-bright)}
 footer h4{color:var(--gold-bright)}
 
-/* Brand logo mark (glasses) in header + footer */
+/* Brand logo mark (glasses) in header */
 .brand{gap:12px;display:flex;align-items:center}
 .brand .dot{width:36px;height:22px;border:none!important;border-radius:0!important;background:url('/assets/logo-mark.svg') center/contain no-repeat!important;position:static;flex:none}
 .brand .dot::after{content:none!important;display:none!important;width:0!important;height:0!important}
-footer .brand .dot{border:none!important}
+/* Hide logo mark in footer — text only */
+footer .brand .dot{display:none!important}
