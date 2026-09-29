@@ -430,27 +430,28 @@ footer {
 .foot-grid h4 {
   font-size: .85rem;
   text-transform: none;
-  color: var(--ink-soft);
+  color: var(--gold-bright);
   margin: 0 0 12px;
   font-weight: 600;
 }
 .foot-grid a {
   display: block;
   text-decoration: none;
-  color: var(--ink);
+  color: var(--gold);
   font-size: .92rem;
   margin-bottom: 9px;
 }
+.foot-grid a:hover{color:var(--gold-bright)}
 .foot-bottom {
   margin-top: 36px;
   padding-top: 20px;
-  border-top: 1px solid var(--paper-line);
+  border-top: 1px solid rgba(230,198,124,.25);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
   font-size: .82rem;
-  color: var(--ink-soft);
+  color: var(--gold);
 }
 
 .page-head {
