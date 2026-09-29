@@ -89,14 +89,16 @@ p.lede { font-size: 1.15rem; color: var(--ink-soft); max-width: 56ch; }
 }
 nav.primary {
   display: flex;
-  gap: 28px;
+  gap: 32px;
+  align-items: center;
 }
 nav.primary a {
   text-decoration: none;
-  font-size: .96rem;
+  font-size: .88rem;
   color: var(--ink-soft);
   border-bottom: 2px solid transparent;
   padding-bottom: 2px;
+  white-space: nowrap;
 }
 nav.primary a:hover, nav.primary a.active { color: var(--ink); border-color: var(--amber); }
 .nav-cta {
