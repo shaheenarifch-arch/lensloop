@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
+
+# Sitemap
 Sitemap: https://lensloop.site/sitemap.xml
+
+# Disallow admin
+Disallow: /api/
+Disallow: /_next/
