@@ -40,5 +40,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 8.77
+  },
+  {
+    "keyword": "Buying glasses online complete guide: prescriptions, frames, lenses and fit",
+    "title": "Buying Glasses Online Complete Guide: What to Know",
+    "description": "Buying glasses online complete guide covering prescriptions, frames, lenses, and fit, with a decision framework and common mistakes to avoid.",
+    "file": "buying-glasses-online-complete-guide-prescriptions-frames-lenses-and-fit.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.97,
+    "risk_level": "high",
+    "requires_human_review": true,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 8.66
   }
 ]
