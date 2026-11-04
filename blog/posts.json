@@ -54,5 +54,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 8.66
+  },
+  {
+    "keyword": "best blue light glasses under $30",
+    "title": "Best Blue Light Glasses Under $30 for Screen Users",
+    "description": "Compare the best blue light glasses under $30 for work, gaming, and daily screen use, with frame styles, fit tips, and buying guidance from LensLoop.",
+    "file": "best-blue-light-glasses-under-30.html",
+    "date": "2026-11-04",
+    "archetype": "best_products",
+    "archetype_confidence": 0.97,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 9.41
   }
 ]
