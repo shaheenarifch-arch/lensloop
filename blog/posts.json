@@ -68,5 +68,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 9.41
+  },
+  {
+    "keyword": "prescription glasses that fit small head sizes online",
+    "title": "Prescription Glasses That Fit Small Head Sizes Online",
+    "description": "Struggling with slipping frames? Learn how to find prescription glasses that fit small head sizes online, from key measurements to common fit mistakes.",
+    "file": "prescription-glasses-that-fit-small-head-sizes-online.html",
+    "date": "2026-11-06",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.57,
+    "risk_level": "high",
+    "requires_human_review": true,
+    "google_quality_passed": false,
+    "eeat_score": 92,
+    "seo_aeo_score": 8.96
   }
 ]
