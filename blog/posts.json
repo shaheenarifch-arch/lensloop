@@ -82,5 +82,19 @@
     "google_quality_passed": false,
     "eeat_score": 92,
     "seo_aeo_score": 8.96
+  },
+  {
+    "keyword": "how to read your glasses prescription",
+    "title": "How to Read Your Glasses Prescription: Full Guide",
+    "description": "Learn how to read your glasses prescription, including OD, OS, SPH, CYL, AXIS, ADD and PD, before ordering frames or lenses online.",
+    "file": "how-to-read-your-glasses-prescription.html",
+    "date": "2026-11-12",
+    "archetype": "how_to",
+    "archetype_confidence": 0.83,
+    "risk_level": "high",
+    "requires_human_review": true,
+    "google_quality_passed": false,
+    "eeat_score": 92,
+    "seo_aeo_score": 8.36
   }
 ]
